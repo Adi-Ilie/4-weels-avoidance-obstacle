@@ -18,7 +18,7 @@
 #define MAX_SPEED 190 // sets speed of DC  motors
 //#define MAX_SPEED_OFFSET 20
 
-NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE); 
+NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE);// sonar 
 
 
 Servo myservo;   
